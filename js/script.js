@@ -41,4 +41,4 @@ userKmBox.innerHTML = `${userKilometres} Km`;
 userAgeBox.innerHTML = `${userAge} anni`;
 priceKmBox.innerHTML = `${priceForKm} €`;
 discountBox.innerHTML = `${discount * 100}%`;
-priceTicketBox.innerHTML = `${priceTicket.toPrecision(3)} €`;
+priceTicketBox.innerHTML = `${priceTicket.toPrecision(2)} €`;
