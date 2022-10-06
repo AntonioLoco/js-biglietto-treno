@@ -5,12 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Biglietto Treno</title>
 </head>
 <body>
-    
+    <main>
+        <div class="ticket-wrapper">
+            <div class="header-ticket">
+                <div class="header-icon">
+                    <i class="fa-solid fa-train"></i>
+                    <span>Train Ticket</span>
+                </div>
+            </div>
+            <div class="main-ticket">
+                <div class="container">
+                    <div class="info-box">
+                        <span class="title">Km da percorrere</span>
+                        <span class="value" id="user-km">...</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="title">Età del passeggero</span>
+                        <span class="value" id="user-age">...</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="title">Prezzo al Km</span>
+                        <span class="value" id="price-km">...</span>
+                    </div>
+                    <div class="info-box">
+                        <span class="title">Sconto</span>
+                        <span class="value" id="price-km">...</span>
+                    </div>
+                    <div class="info-box price-ticket">
+                        <span class="title">Prezzo del Biglietto</span>
+                        <span class="value" id="price-km">...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
     <!-- Script -->
     <script src="js/script.js"></script>
 </body>
